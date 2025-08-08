@@ -40,7 +40,8 @@ This project showcases a complete setup and deployment of a **Dialogflow CX-base
 | Agent Dashboard                | ![](assets/screenshots/agent-dashboard.png) |
 | Environment Setup              | ![](assets/screenshots/environment-setup.png) |
 | Testing in Draft Environment   | ![](assets/screenshots/testing-interface.png) |
-
+<img width="915" height="677" alt="Image" src="https://github.com/user-attachments/assets/2fcca6b3-3c5f-41fb-a833-c407f54d3c77" />
+<img width="1271" height="699" alt="Image" src="https://github.com/user-attachments/assets/ac15df59-9804-4a0d-8952-1efe30a8a1dd" />
 ---
 
 ## 📂 Project Artifacts
