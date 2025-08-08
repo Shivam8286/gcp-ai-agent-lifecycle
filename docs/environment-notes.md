@@ -1,30 +1,32 @@
-# 🔄 Dialogflow CX Versioning Guide
-
-This document explains how versioning was used in the project.
+# 🌍 Dialogflow CX Environments Notes
 
 ---
 
-## Why Use Versions?
+## Environments Used
 
-- Keep stable releases separate from new experiments.
-- Roll back to a working version if something breaks.
-- Make changes without affecting production environments.
-
----
-
-## How It Was Done
-
-1. Finalized the working flow in Draft.
-2. Created a new version snapshot (e.g., `v1.0`).
-3. Assigned this version to a test environment.
-4. Continued working in Draft for future improvements (e.g., `v1.1`, `v2.0`).
-5. Promoted stable versions to production/staging.
+1. **Draft**
+   - Default working environment for development and updates.
+2. **QA**
+   - Internal testing before external rollout.
+3. **Staging**
+   - Near-production environment used for final approval.
+4. **Production**
+   - Final version for real user interaction.
 
 ---
 
-## Best Practices
+## Environment Configuration Steps
 
-- Use semantic versioning (e.g., v1.0.0).
-- Always test in a staging environment before production.
-- Add notes or changelogs for each version created.
+- Go to Dialogflow CX Agent → Environments.
+- Click **"Create Environment"**.
+- Choose version to deploy and name the environment.
+- Add optional description and roles.
+- Deploy.
 
+---
+
+## Benefits of Multiple Environments
+
+- Prevents breaking live apps during development.
+- Supports A/B testing.
+- Enables collaborative review before publishing.
