@@ -1,0 +1,24 @@
+# Node.js (in case you're using any node scripts)
+node_modules/
+package-lock.json
+.env
+
+# MacOS
+.DS_Store
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# GCP credentials (keep these private)
+gcloud.json
+*.key.json
+
+# Editor configs
+.vscode/
+.idea/
+*.swp
+
+# Dialogflow CX blobs or exports (optional)
+*.blob
