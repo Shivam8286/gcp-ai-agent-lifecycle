@@ -1,7 +1,7 @@
 # gcp-ai-agent-lifecycle
 # 🤖 GCP Dialogflow CX Conversational Agent Project
 
-This project showcases a complete setup and deployment of a **Dialogflow CX-based Conversational Agent** using **Google Cloud Platform**. The goal was to explore how to create, manage, test, and version conversational agents in a professional environment.
+This project showcases a complete setup and deployment of a **Dialogflow CX-based Conversational Agent** using **Google Cloud Platform**. The goal was to explore how to create, manage, test, and version conversational agents in a professional environment. 
 
 ---
 
